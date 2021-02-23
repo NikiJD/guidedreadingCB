@@ -10,44 +10,44 @@
 # site domain, full URL to the production location of your collection
 url: https://www.lib.uidaho.edu
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: /demo/psychiana
+baseurl: /guidedreading
 # location of code, the full url to your github repository
-source-code: https://github.com/CollectionBuilder
+source-code: https://github.com/NikiJD/guidedreadingCB/
 
 ##########
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: Collection Builder CDM Skin
+title: Guided Reading Library
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Digital Collection Magic with Static Web Technologies
+tagline: Guided reading material from the College of Education, curated by Margaret Vaughn
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." 
+description: "The Guided Reading Library is a digital collection of short books created by students in the University of Idaho's College of Education. This library is directed by Margaret Vaughn, in collaboration with the Digital Inititiaves department of the University of Idaho Library."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: idaho;history;inland northwest 
+keywords: 
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: CollectionBuilder
+author: NikiJD
 # Organization branding
-organization-name: "Digital Initiatives, University of Idaho Library"
-organization-link: https://www.lib.uidaho.edu/digital/
-organization-logo-banner: https://www.lib.uidaho.edu/media/digital/justdi_logo_sm.png
-organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwhite.png
+organization-name: 
+organization-link:
+organization-logo-banner:
+organization-logo-nav:
 
 
 ##########
 # COLLECTION SETTINGS
 #
 # choose metadata: this is the name of the csv file in your _data directory that describes the objects in your collection
-metadata: demo_psychiana
+metadata: guidedreading
 # contentdm collection name, matches collection ID used by CDM
-cdm-collection-id: psychiana
+cdm-collection-id: guidedread
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
-  - data: 'demo_psychiana'
+  - data: 'guidedreading'
     template: 'items'
     name: 'objectid'
     dir: 'items'
