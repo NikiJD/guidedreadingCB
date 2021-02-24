@@ -6,10 +6,6 @@ permalink: /about.html
 # Look in _includes/feature for options to add features to the page
 ---
 
-{% include feature/jumbotron.html %}
-
-{% include feature/nav-menu.html sections="About the Collection Builder CDM Skin;About the About Page" %}
-
 ## About the Collection Builder CDM Skin
 
 This demo collection features items from the University of Idaho Library's [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital/psychiana/), and is build using [CollectionBuilder-CONTENTdm](https://github.com/CollectionBuilder/collectionbuilder-contentdm).
