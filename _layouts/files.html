@@ -1,8 +1,6 @@
 ---
 layout: page
 ---
-{% assign fields = site.data.config-table | map: 'display_name' %}
-{% include data-download-modal.html %}
 
 {{ content }}
 
@@ -10,10 +8,9 @@ layout: page
     <table id="item-table" class="table table-striped">
         <thead>
             <tr>
-                {% for f in fields %}
-                <th scope="col">{{ f }}</th>
-                {% endfor %}
-                <th>Link</th>
+                <th scope="col">Title</th>
+                <th>PDF</th>
+                <th>MP3</th>
             </tr>
         </thead>
     </table>
