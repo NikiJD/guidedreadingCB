@@ -10,11 +10,11 @@ layout: page
     
   </div>
   <div class="col-md-4">  
+       
+    {% include index/featured-terms.html field="grade-level" title="Grade Level" btn-color="info" featured=kindergarten;first;second;third;fourth;fifth;sixth max=7 %}
 
     {% include index/time.html %}
-       
-    {% include index/featured-terms.html field="grade-level" title="Grade Level" btn-color="info" featured=site.data.theme.featured-subjects max=7 %}
-
+    
     {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="info" featured=site.data.theme.featured-subjects max=site.data.theme.featured-subjects-max %}
 
     {% include index/objects.html %}
