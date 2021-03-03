@@ -43,7 +43,7 @@ metadata: guidedreading
 # contentdm collection name, matches collection ID used by CDM
 cdm-collection-id: guidedread
 # CONTENTdm server url
-cdm-url: https://lib.uidaho.edu/
+cdm-url: https://lib.uidaho.edu/digital
 # page generation settings 
 # "data" value must be the name of the metadata file (other values should be not be changed)
 page_gen:
