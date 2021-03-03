@@ -6,8 +6,6 @@ permalink: /about.html
 # Look in _includes/feature for options to add features to the page
 ---
 
-{% include feature/jumbotron.html %}
-
 {% include feature/nav-menu.html sections="About the Collection Builder CDM Skin;About the About Page" %}
 
 ## About the Collection Builder CDM Skin
