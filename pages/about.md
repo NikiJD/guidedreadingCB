@@ -6,8 +6,6 @@ permalink: /about.html
 # Look in _includes/feature for options to add features to the page
 ---
 
-{% include feature/nav-menu.html sections="About the Collection Builder CDM Skin;About the About Page" %}
-
 # About
 
 The Guided Reading Library is a digital collection of short books created by students in the University of Idaho's College of Education. This library is directed by Margaret Vaughn, in collaboration with the Digital Initiatives unit of the University of Idaho Library.
