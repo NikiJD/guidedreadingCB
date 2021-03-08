@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-{% assign fields = "title,PDF,MP3" | map: 'display_name' %}
+{% assign fields = site.data.config-media-table | map: 'display_name' %}
 
 {{ content }}
 
